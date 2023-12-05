@@ -30,13 +30,13 @@ function sendMessage() {
     // Di sini Anda bisa menambahkan logika untuk AI memberikan respons terhadap pesan yang diberikan
     // Contoh sederhana:
     const responses = {
-      'Halo': 'Halo! Apa yang bisa saya bantu?',
-      'Bagaimana kabar?': 'Saya hanyalah program komputer, tapi saya siap membantu Anda!',
+      'Halo': 'Halo! Apa yang bisa reyan bantu?',
+      'Bagaimana kabar?': 'Saya hanyalah program buatan reyan, tapi saya siap membantu Anda!',
       
       // Tambahkan respons lain sesuai kebutuhan
     };
   
-    const REYANResponse = responses[message] || 'makasih ya kontol dah mau respon';
+    const REYANResponse = responses[message] || 'makasih ya puq dah mau respon';
     displayREYANMessage(REYANResponse);
   }
   
